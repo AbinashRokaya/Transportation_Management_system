@@ -36,7 +36,7 @@ int main()
         break;
     default:
         cout<<"Invalid input:";
-        break;
+         break;
     }
     
     
@@ -93,7 +93,7 @@ void Bus::Bus_Show()
     //getline(file,Bus_Name);
     //getline(file,Bus_No);
     file>>Bus_Name>>Bus_No>>sit_NO;
-    cout<<"Bus name:"<<Bus_Name<<"Bus no:"<<Bus_No<<"sit no:"<<sit_NO;
+    cout<<"Bus name:"<<Bus_Name<<endl<<"Bus no:"<<Bus_No<<endl<<"sit no:"<<sit_NO<<endl;
     
     
     
